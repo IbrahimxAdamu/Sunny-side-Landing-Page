@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --Dark-blue:hsl(198, 62%, 26%);
+    --Dark-moderate-cyan: hsl(168, 34%, 41%);
+
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+
+}
+header{
+    border: 3px solid purple;
+    height: 100vh;
+    background-image: url(./images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+header nav{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+header nav ul{
+    /* border: 2px solid red; */
+    display: flex;
+    list-style-type: none;
+    gap: 3%
+
+}
+nav ul li {
+    /* border: 3px solid black; */
+    padding: 10px 15px ;
+    border-radius: 15px;
+    color: var(--White)
+}
+
+nav ul li:hover{
+    padding: 10px 15px ;
+    border-radius: 15px;
+    color: black;
+    background-color: var(--Soft-red)
+
+}
+nav ul span{
+    padding: 10px 15px ;
+    border-radius: 15px;
+    color: black;
+    background-color: var(--White);
+    }
+
+header h1{
+    text-align: center;
+    color: var(--White);
+      margin-top: 30px;
+
+}
+.arrow-down{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.section-one{
+    border: 3px solid green;
+    display: flex;
+    height: 600px;
+}
+.transform{
+    border: 2px salmon;
+    flex: 1;
+}
+.egg{
+    /* border: 4px solid blue; */
+    flex: 1;
+    background-image: url(/images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.mango{
+    border: 3px solid aqua;
+   flex: 1;
+
+}
+.section-two{
+    border: 3x solid black;
+    display: flex;
+    height: 600px;
+}
+.empty{
+    flex: 1;
+}
+
+.cup{
+    flex: 1;
+    background-image: url(/images/desktop/image-stand-out.jpg);
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-three{
+    height: 80vh;
+    display: flex;
+    /* border: 3px solid yellowgreen; */
+}
+
+.graphic-design{
+    flex: 1;
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+    /* height: 400px; */
+}
+
+.photography{
+    flex: 1;
+    background-image: url(/images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+  
+.index-one{
+    border: 3px solid black;
+    max-width: 400px;
+    display: flex;
+    
+}
+
+.index-one h3{
+    display: flex;
+    /* text-align: center; */
+margin-bottom: 15px;}
+
+.index-one p{
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.section-four{
+    height: 50vh;
+    /* flex: 1; */
+    flex-wrap: wrap;
+}
+
+.section-four{
+    /* border: 4px solid gold; */
+    height: 60vh;
+    display: flex;
+}
+.milk-bottle{
+    /* border: 2px solid green; */
+    flex: 1;
+    background-image: url(/images/desktop/image-gallery-milkbottles.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.oranges{
+    /* border: 2px solid green; */
+    flex: 1;
+    background-image: url(/images/desktop/image-gallery-orange.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cone{
+    /* border: 2px solid green; */
+    flex: 1;
+    background-image: url(/images/desktop/image-gallery-cone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.suger-cube{
+/* border: 2px solid green; */
+flex: 1;
+background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+footer{
+    height: 60vh;
+    border: 5px solid red;
+    background-color: var(--Dark-desaturated-cyan);
+}
+
+footer div{
+    border: 3px solid blue;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+.index-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
